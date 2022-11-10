@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f46696;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navigation{
+    background-color:rgb(133, 133, 248) ;
+    position: sticky;
+    top: 0;
+}
+.Head-1{
+    /* background-color: rgb(133, 133, 248); */
+    height: 6vh;
+    width: 100%;
+}
+.logo{
+    letter-spacing: 0.2rem;
+    padding: 9px;
+    margin: 5px 10px 5px 15px;
+    color: greenyellow;
+}
+
+.Head-2{
+    /* background-color: rgb(133, 133, 248); */
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Head-2 nav ul{
+    /* display: flex; */
+    margin: 25px; 
+}
+.Head-2 nav ul li{
+    padding: 10px 15px;
+    margin: 5px;
+    list-style: none;
+    display: inline;
+    
+}
+.Head-2 nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-family: serif;
+   font-size: 18px;
+   transition: all 1s ;
+}
+.Head-2 nav ul li a:hover{
+    color: rgb(3, 46, 3);
+text-decoration: underline;
+}
+.Head-2 #search{
+    margin-right: 20px;
+}
+.Head-2 #search input{
+    padding: 3px;
+    border-radius: 8px;
+}
+.btn{
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.btn:hover{
+    background-color: rgb(153, 103, 10);
+}
+
+#slider{
+    width: 80%;
+    height: 60vh;
+    border: 1px solid black;
+    margin: 4px auto;
+    background: url(../img/slider.jpg)no-repeat center center/cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+}
+
+
+#About{
+    padding-top: 80px;
+    margin: 20px;
+    /* border: 2px solid black; */
+}
+.big-text {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#About h3{
+    padding: 10px 15px;
+     font-size: 20px;
+}
+#about ul {    
+    margin: 8px 45px;
+    font-size: 18px;  
+}#services ul {    
+    margin: 8px 45px;  
+    font-size: 18px; 
+}
+.product-sec{
+    padding-top: 80px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.product-sec h3{
+    padding: 10px 25px;
+     font-size: 20px;
+}
+.product p {
+padding-left: 10px;
+}
+
+.firstproduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.firstfood img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.product{
+    padding: 20px;
+    
+}
+.fruitsproduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fruits img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.drinksproduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.drinks img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.ice-cream img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.ice-creamproduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.contact{
+    padding-top: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.form input{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 2px;
+border-radius: 6px;
+}
+#orderbtn{
+  width: 100px;
+  
+}
+#orderbtn:hover{
+    width: 125px;
+  }
+#resetbtn{
+
+  width: 100px;
+}
+#resetbtn:hover{
+  width: 125px;
+}
+ .form-button{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin: 10px;
+ }
+
+.footer{
+    height: 8vh;
+width: 100%;
+background-color: rgb(133, 133, 248);
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-style: italic;
+}
+
+
+/* Responsive design */
+
+@media only screen and  (min-width:300px)and (max-width:850px){
+        .navigation {
+            min-height: 30vh;
+            background-color: #f46696;
+        }
+    
+        .logo{
+            display: flex;
+            justify-content: center;
+        }
+        .Head-2{
+            height: 30vh;
+        }
+        .Head-2 nav ul li{
+           display: block;
+        }
+        .product-sec h3{
+            display: flex;
+            justify-content: center;
+        }
+}
+@media only screen and (min-width:300px) and (max-width:500px) {
+    #slider{
+        width: 70%;
+        height: 30vh;
+        border: 1px solid black;
+        margin: 4px auto;
+        background: url(../img/slider.jpg)no-repeat center center/cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px 35px;
+        font-size: 20px;
+        font-style: italic;
+        letter-spacing: 0.2rem;
+    }
+    .navigation{
+        width: 100%;
+        position: sticky;
+        right: 0;
+    }
+    
+}
