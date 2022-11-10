@@ -79,7 +79,7 @@ text-decoration: underline;
 
 #slider{
     width: 80%;
-    height: 60vh;
+    height: 70vh;
     border: 1px solid black;
     margin: 4px auto;
     background: url(../img/slider.jpg)no-repeat center center/cover;
@@ -94,7 +94,7 @@ text-decoration: underline;
 
 
 #About{
-    padding-top: 80px;
+    padding-top: 100px;
     margin: 20px;
     /* border: 2px solid black; */
 }
@@ -115,7 +115,7 @@ text-decoration: underline;
     font-size: 18px; 
 }
 .product-sec{
-    padding-top: 80px;
+    padding-top: 100px;
     margin: 10px;
     border: 1px solid black;
 }
